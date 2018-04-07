@@ -8,6 +8,7 @@ version = "1.0.0"
 //sourceDirectoryPath = "./md"
 
 // The path of directory to be outputted a document
-outputDirectoryPath = "/var/www/rhincodon.biz"
+// outputDirectoryPath = "build"
 
+numbering = false
 homePage="README.md"
