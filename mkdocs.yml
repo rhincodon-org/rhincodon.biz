@@ -10,7 +10,7 @@ copyright: 'Copyright (c) 2018'
 docs_dir: 'docs'
 theme: 
   name: 'material'
-  language: 'ja'
+  language: 'en'
   palette:
     primary: 'Green'
     accent: 'Green'
