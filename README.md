@@ -1,6 +1,6 @@
 rhincodon.biz
 ===
 
-rhoncodonの技術サイト
+rhincodon's business site.
 
 * [rhincodon.biz](http://rhincodon.biz)

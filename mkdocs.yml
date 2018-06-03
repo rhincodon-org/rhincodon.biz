@@ -4,7 +4,12 @@ site_description: 'rhincodon.biz'
 site_author: 'kota@rhincodon.org'
 
 # Copyright
-copyright: 'Copyright (c) 2018'
+copyright: 'Copyright (c) 2018 rhincodon.org'
+
+# Repo
+repo_name: 'rhincodon-org/rhincodon.biz'
+repo_url: 'https://github.com/rhincodon-org/rhincodon.biz'
+edit_uri: ""
 
 # Documentation and theme
 docs_dir: 'docs'
@@ -28,6 +33,11 @@ extra:
   i18n:
     prev: 'Previous'
     next: 'Next'
+  social:
+    - type: 'github'
+      link: 'https://github.com/rhincodon-org'
+    - type: 'twitter'
+      link: 'https://twitter.com/rhincodon_org'
 
 # Extensions
 markdown_extensions:
