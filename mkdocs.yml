@@ -1,0 +1,54 @@
+# Project information
+site_name: 'rhincodon.biz'
+site_description: 'rhincodon.biz'
+site_author: 'kota@rhincodon.org'
+
+# Copyright
+copyright: 'Copyright (c) 2018'
+
+# Documentation and theme
+docs_dir: 'docs'
+theme: 
+  name: 'material'
+  language: 'ja'
+  palette:
+    primary: 'Green'
+    accent: 'Green'
+  logo:
+    icon: 'shared'
+  feature:
+    tabs: true
+#  direction: 'ltr'
+
+# Options
+extra:
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  i18n:
+    prev: 'Previous'
+    next: 'Next'
+
+# Extensions
+markdown_extensions:
+  - codehilite(css_class=code)
+  - admonition
+  - toc:
+      permalink: '#'
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - plantuml
